@@ -23,3 +23,14 @@
     height: 100%;
     object-fit: contain;
 }
+.fixed-img {
+    width: 100%; /* Ensures the image takes the full width of its container */
+    height: 300px; /* Adjust this value to your desired height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and fills the container */
+  }
+  .fixed-img2 {
+    width: 100%; /* Ensures the image takes the full width of its container */
+    height: 600px; /* Adjust this value to your desired height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and fills the container */
+  }
+  
